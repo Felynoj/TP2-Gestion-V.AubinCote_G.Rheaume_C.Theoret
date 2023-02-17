@@ -1,41 +1,55 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0px;
+    background-color: #666;
   }
   
-  header {
+header {
     display: flex;
+    color: aliceblue;
     flex-direction: column;
+    font-family: 'Megrim';
     align-items: center;
     text-align: center;
-    background-color: lightcoral; 
+    background-image: url(https://images.pexels.com/photos/3213357/pexels-photo-3213357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    justify-items: center;
+    text-align: -webkit-match-parent;
+    background-size: cover;
+    background-position-y: center;
   }
   
-  nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 20px;
-  }
-  
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 50px;
-  }
-  
-  section {
-    width: 60%;
-    margin: 20px;
-    padding: 20px;
-    text-align: left;
-  }
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: aliceblue;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li a {
+  color: aliceblue;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+section {
+  width: 60%;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+}
