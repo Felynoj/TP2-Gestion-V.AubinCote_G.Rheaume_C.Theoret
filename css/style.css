@@ -1,28 +1,38 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0px;
-    background-color: #666;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  background-color: #4f4c44;
+}
+
 header {
-    display: flex;
-    color: aliceblue;
-    flex-direction: column;
-    font-family: 'Megrim';
-    align-items: center;
-    text-align: center;
-    background-image: url(https://images.pexels.com/photos/3213357/pexels-photo-3213357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    justify-items: center;
-    text-align: -webkit-match-parent;
-    background-size: cover;
-    background-position-y: center;
-  }
-  
+  display: flex;
+  color: aliceblue;
+  flex-direction: column;
+  font-family: 'Megrim';
+  align-items: center;
+  text-align: center;
+  background-image: url(https://images.pexels.com/photos/3213357/pexels-photo-3213357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  justify-items: center;
+  text-align: -webkit-match-parent;
+  background-size: cover;
+  background-position-y: center;
+}
+
+h3 {
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+p, h4 {
+  color: aliceblue;
+}
+
 nav {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   color: aliceblue;
+  text-align: center;
 }
 
 nav ul {
@@ -32,12 +42,14 @@ nav ul {
   gap: 10px;
 }
 
-nav li {
-  margin-right: 20px;
-}
-
 nav li a {
   color: aliceblue;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #84aa94;
+  text-decoration: underline;
 }
 
 main {
